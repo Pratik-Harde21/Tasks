@@ -1,0 +1,53 @@
+#root {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 145px 241px 241px 145px;
+  grid-gap: 5px;
+  height: 800px;
+  width: 80%;
+  margin: auto;
+  color: white;
+}
+#root div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 21px;
+}
+
+.item1 {
+  grid-column: 1/-1;
+  background-color: rgb(190, 120, 255);
+}
+
+.item2 {
+  background-color: rgb(54, 220, 140);
+  background-image: linear-gradient(to bottom, #3ddcd4, #2aa8a1);
+  grid-column: 1/2;
+  grid-row: 2/4;
+}
+
+.item3 {
+  background-image: linear-gradient(to bottom right, #785bff, #3ddedb);
+  grid-column: 2/-1;
+  grid-row: 2/3;
+}
+
+.item4 {
+  background-image: linear-gradient(to bottom right, #785bff, #3ddedb);
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+.item5 {
+  background-image: linear-gradient(to bottom right, #785bff, #3ddedb);
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+.item6 {
+  background-color: rgb(190, 120, 255);
+  grid-row: 4/5;
+  grid-column: 1/-1;
+}/*# sourceMappingURL=GridAdFlex.css.map */
