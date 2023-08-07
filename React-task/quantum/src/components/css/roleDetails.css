@@ -1,0 +1,139 @@
+@font-face {
+    font-family: myFont;
+    src: url(../Quicksand_font_1/Quicksand-VariableFont_wght.ttf);
+    src: url(../../../Quicksand_font_1/Quicksand-VariableFont_wght.ttf);
+}
+*{
+    font-family: myFont;
+}
+.card{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    width: 77%;
+    border-radius: 6px;
+    min-height: 0px;
+    margin: 29px auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 6px #0000003D;
+    font-size: 1.3rem;
+    /* font-family: myFont; */
+}
+.card-content{
+    padding: 13px 17px 0 17px;
+}
+.title{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.card-date{
+    color: #666666;
+    padding: 23px 0 22px 0;
+    font-size: 1rem;
+}
+
+.card-date p {
+        margin: 0 0 5px 0;
+}
+.card-role{
+    color: #666666;
+    padding: 23px 0 13px 0;
+    font-size: 1rem;
+}
+.card-role p {
+        margin: 0 0 5px 0;
+}
+.card-btn{
+    width: 6%;
+    position: absolute;
+    margin-left: 69%;
+    height: 39px;
+    font-weight: 600;
+    background: #3FD28B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 5px #0000003D;
+    border: none;
+    border-radius: 3px;
+}
+span{
+    margin: 0 10px;
+}
+
+select{
+    border: none;
+    background: #DBEFFF;
+    height: 51px;
+    width: 102.5%;
+    margin-left: -16px;
+}
+
+.pre-requisites{
+    display: flex;
+    justify-content: space-between;
+    background-color: #DBEFFF;
+    height: 51px;
+    align-items: center;
+    padding: 0 0 0 18px;
+}
+
+.sub-space{
+    margin: 16px 0 8px 0;
+}
+.sub-topic{
+    color: #666666;
+    font-size: 1rem;
+    padding: 5px 0;
+}
+.sub-text{
+    color: #666666;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1px 0;
+}
+.dropable{
+    padding: 13px 17px 0 17px;
+}
+
+/* **************************************************************************************************** */
+.tislpre{
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding-bottom: 13px;
+}
+/* .slot{
+
+} */
+.slot-label{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+input[type='radio'] {
+    width: 19px;
+    height: 20px;
+    accent-color: #1F7A54;
+    margin-right: 11px;
+    margin-top: 9px;
+}
+.slot-space{
+    margin: 18px 0;
+}
+input[type='checkbox'] {
+    width: 19px;
+    height: 20px;
+    accent-color: #1F7A54;
+    margin-right: 11px;
+    margin-top: 9px;
+    color: #1F7A54;
+}
+input[type='checkbox']::before {
+    border: 5px solid red;
+}
+.upload{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #1F7A54;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.upArrow{
+    width: 30px;
+}

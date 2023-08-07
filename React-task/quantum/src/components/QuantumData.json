@@ -1,0 +1,21 @@
+[
+    {
+        "isExpire": true,
+        "title": "Walk In for Designer Job Role",
+        "date":"10-Jul-2021 to 11-Jul-2021",
+        "location":"Mumbai",
+        "role":["Instructional Designer"]
+    },
+    {
+        "title": "Walk In for Multiple Job Roles",
+        "date":"03-Jul-2021 to 04-Jul-2021",
+        "location":"Mumbai",
+        "role":["Instructional Designer", "Software Engineer", "Software Quality Engineer"]
+    },
+    {
+        "title": "Walk In for Design and Development Job Role",
+        "date":"10-Jul-2021 to 11-Jul-2021",
+        "location":"Mumbai",
+        "role":["Instructional Designer", "Software Engineer"]
+    }
+]
