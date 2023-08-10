@@ -1,0 +1,19 @@
+.review-title{
+    color: #666666;
+    font-size: 0.9rem;
+    padding: 8px 0;
+}
+.review-text{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 27px;
+}
+.review-sub{
+    width: 50%;
+    margin: -8px 0;
+}
+.review-heading{
+    margin-left: 12%;
+    font-size: 1.3rem;
+    font-weight: 600;
+}

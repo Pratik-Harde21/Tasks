@@ -1,0 +1,87 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    background-color: #DBEFFF;
+    height: 51px;
+    align-items: center;
+    padding: 0 0 0 18px;
+}
+.card{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    width: 77%;
+    border-radius: 6px;
+    min-height: 0px;
+    margin: 29px auto;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 6px #0000003D;
+    font-size: 1.3rem;
+    /* font-family: myFont; */
+}
+.dropable{
+    padding: 13px 17px 15px 17px;
+}
+.quali-title{
+    color: #666666;
+    font-size: 0.9rem;
+    padding: 5px 0;
+}
+.input{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid #bdb3b3;
+    width: 20%;
+    outline: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 7px 0 24px 0;
+}
+.input1{
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: 2px solid #bdb3b3;
+    width: 93%;
+    outline: none;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 12px 0 17px 0;
+}
+.college{
+    display: flex;
+    justify-content: space-between
+}
+.college-sub{
+    width: 50%;
+    margin: 17px 0;
+}
+input[type='radio'] {
+    width: 19px;
+    height: 20px;
+    accent-color: #1F7A54;
+    margin-top: 9px;
+}
+.radio-text{
+    margin: 0 21px 0 4px;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.buttons{
+    display: flex;
+    /* margin-left: auto; */
+    justify-content: center;
+}
+.quali-btn{
+    height: 35px;
+    width: 6%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    background: #3FD28B 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 5px #0000003D;
+    border: none;
+    border-radius: 3px;
+    margin: 0 11px;
+}

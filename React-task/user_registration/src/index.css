@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+}
+body{
+  background: #EEEEEE;
+}
+@font-face {
+  font-family: myFont;
+  src: url(../Quicksand_font_1/Quicksand-VariableFont_wght.ttf);
+}
